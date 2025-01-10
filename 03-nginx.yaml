@@ -1,7 +1,7 @@
 - name: install and run nginx
   hosts: web
   become: yes # -b
-  tasks:
+  tasks: # task=module=collection
   - name: install nginx
     ansible.builtin.package:
       name: nginx
@@ -10,4 +10,3 @@
     ansible.builtin.service:
       name: nginx
       state: started
-      
