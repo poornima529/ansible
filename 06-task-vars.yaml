@@ -4,7 +4,7 @@
   vars: # play level variables
     COURSE: "DevOps with AWS"
     DURATION: 120hrs
-    TRAINER: sivakumar
+    TRAINER: Sivakumar
   tasks:   
   - name: print the variables
     vars: # Task level variables
