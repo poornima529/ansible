@@ -14,3 +14,39 @@
   - name: print the output
     ansible.builtin.debug:
       msg: "{{ command_result }}"
+      {
+        "changed": true,
+        "cmd": "ls -ltr",
+        "delta": "0:00:01.008358",
+        "end": "2025-01-17 12:37:54.030347",
+        "failed": false,
+        "msg": "",
+        "rc": 0,
+        "start": "2025-01-17 12:37:53.021989",
+        "stderr": "",
+        "stderr_lines": [],
+        "stdout": "total 116\n-rw-r--r-- 1 ec2-user ec2-user   254 Jan 13 09:54 07-vars-files.yaml\n-rw-r--r-- 1 ec2-user ec2-user   520 Jan 13 09:54 06-task-vars.yaml\n-rw-r--r-- 1 ec2-user ec2-user   293 Jan 13 09:54 05-vars.yaml\n-rw-r--r-- 1 ec2-user ec2-user   398 Jan 13 09:54 04-multi-play.yaml\n-rw-r--r-- 1 ec2-user ec2-user   275 Jan 13 09:54 03-nginx.yaml\n-rw-r--r-- 1 ec2-user ec2-user   125 Jan 13 09:54 02-hello-world.yaml\n-rw-r--r-- 1 ec2-user ec2-user   111 Jan 13 09:54 01-playbook.yaml\n-rw-r--r-- 1 ec2-user ec2-user   500 Jan 13 09:54 08-vars-prompt.yaml\n-rw-r--r-- 1 ec2-user ec2-user    61 Jan 13 09:54 vars.yaml\n-rw-r--r-- 1 ec2-user ec2-user    61 Jan 13 09:54 course.yaml\n-rw-r--r-- 1 ec2-user ec2-user   131 Jan 13 10:43 10-facts.yaml\n-rw-r--r-- 1 ec2-user ec2-user   445 Jan 13 10:43 09-conditions.yaml\n-rw-r--r-- 1 ec2-user ec2-user   508 Jan 13 10:48 inventory.ini\n-rw-r--r-- 1 ec2-user ec2-user 37803 Jan 13 11:20 facts.json\n-rw-r--r-- 1 ec2-user ec2-user   338 Jan 13 11:30 11-conditions.yaml\n-rw-r--r-- 1 ec2-user ec2-user   186 Jan 13 11:39 12-loops.yaml\n-rw-r--r-- 1 ec2-user ec2-user   218 Jan 13 12:06 13-loops.yaml\n-rw-r--r-- 1 ec2-user ec2-user   350 Jan 13 12:17 14-loops.yaml\n-rw-r--r-- 1 ec2-user ec2-user  1296 Jan 17 12:09 15-filters.yaml\n-rw-r--r-- 1 ec2-user ec2-user   463 Jan 17 12:37 16-shell-command.yaml",
+        "stdout_lines": [
+            "total 116",
+            "-rw-r--r-- 1 ec2-user ec2-user   254 Jan 13 09:54 07-vars-files.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   520 Jan 13 09:54 06-task-vars.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   293 Jan 13 09:54 05-vars.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   398 Jan 13 09:54 04-multi-play.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   275 Jan 13 09:54 03-nginx.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   125 Jan 13 09:54 02-hello-world.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   111 Jan 13 09:54 01-playbook.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   500 Jan 13 09:54 08-vars-prompt.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user    61 Jan 13 09:54 vars.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user    61 Jan 13 09:54 course.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   131 Jan 13 10:43 10-facts.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   445 Jan 13 10:43 09-conditions.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   508 Jan 13 10:48 inventory.ini",
+            "-rw-r--r-- 1 ec2-user ec2-user 37803 Jan 13 11:20 facts.json",
+            "-rw-r--r-- 1 ec2-user ec2-user   338 Jan 13 11:30 11-conditions.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   186 Jan 13 11:39 12-loops.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   218 Jan 13 12:06 13-loops.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   350 Jan 13 12:17 14-loops.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user  1296 Jan 17 12:09 15-filters.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   463 Jan 17 12:37 16-shell-command.yaml"
+        ]
+    }
